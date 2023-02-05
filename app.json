@@ -1,0 +1,38 @@
+{
+	"expo": {
+		"name": "Ball Check",
+		"slug": "BallCheck",
+		"version": "2.0",
+		"jsEngine": "hermes",
+		"orientation": "portrait",
+		"icon": "./assets/icon.png",
+		"userInterfaceStyle": "light",
+		"splash": {
+			"image": "./assets/splash.png",
+			"resizeMode": "contain",
+			"backgroundColor": "#000000"
+		},
+		"updates": {
+			"fallbackToCacheTimeout": 0
+		},
+		"assetBundlePatterns": ["**/*"],
+		"ios": {
+			"supportsTablet": true
+		},
+		"android": {
+			"adaptiveIcon": {
+				"foregroundImage": "./assets/adaptive-icon.png",
+				"backgroundColor": "#424242"
+			},
+			"package": "com.nicovert.BallCheck"
+		},
+		"web": {
+			"favicon": "./assets/favicon.png"
+		},
+		"extra": {
+			"eas": {
+				"projectId": "f6fafb99-c3fc-4bff-8dcb-303fe33ca20a"
+			}
+		}
+	}
+}
